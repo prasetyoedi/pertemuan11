@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="30dp">
+
+    <ImageView
+        android:id="@+id/bitcoin_logo"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded"
+        android:src="@drawable/default_bitcoins"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_bitcoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Id Bitcoin"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/accountcode_bitcoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Code"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/nama_hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name Bitcoins"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+</LinearLayout>
